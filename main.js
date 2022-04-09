@@ -38,7 +38,6 @@ function botao() {
     let preco = document.getElementById('inputPreco').value
     let qtd = document.getElementById('inputQtd').value
     if (ehIgual(nome) === null) {
-        console.log('aqui')
         let cadastrado = new criarProduto(nome, preco, qtd)
         cadastrarProduto(cadastrado)
         cadastrar(cadastrado)
@@ -53,10 +52,7 @@ function botao() {
         }
         
     }
-    console.log(produtos)
-    console.log('Excluídos', produtosVendidos)
 }
-
 function cadastrarProduto(cadastrado) {
     let produtos = document.getElementsByClassName('vendas')[0]
     produtos.innerHTML += `<div class = 'bloquear'>
@@ -112,13 +108,12 @@ function vender() {
 function vendas() {
     let display = document.getElementsByClassName('vendidos')[0]
     display.innerHTML = ''
-    for (var j = 0; j < produtosVendidos.length; j++) {
-        mostrarVendas(produtosVendidos[j])
-    }
-    for (var i = 0; i < produtosVendidos.length; i++) {
+    for (var i = 0; i < produtos.length; i++) {
         if (produtos[i].qtd !== produtos[i].quantidadeInicial) {
             mostrarVendidos(produtos[i])
         }
     }
-    
+    for (var j = 0; j < produtosVendidos.length; j++) {
+        mostrarVendas(produtosVendidos[j])
+    }
 }

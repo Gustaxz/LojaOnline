@@ -5,34 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = 'stylesheet' href = "style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Rubik+Moonrocks&display=swap" 
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Inconsolata:wght@500&family=Rubik+Moonrocks&display=swap" 
+            rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Tamil:wdth,wght@89.1,572&family=Fredoka&family
+        =Inconsolata:wght@500&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
     <script src = 'main.js'></script>
-    <title>Cadastro de produtos</title>
+    <title>Pechincha Eletros</title>
 </head>
 <body>
-    <div class = 'entradas'>
-        <label for = 'nome-produto'>Digite aqui o nome do produto: <input id = 'inputNome' type = 'text'></label>
+    <header class = 'header'>
+        <h1>Pechincha Eletros</h1>
+    </header>
+    <div class = 'centro'>
+        <h2>Cadastro de produtos:</h2>
+        <section class = 'produtos-cadastrados'>
+            <div class = 'entradas'>
+                <label for = 'nome-produto'>Digite aqui o nome do produto: <input id = 'inputNome' 
+                    type = 'text' placeholder = "Monitor"></label>
+            </div>
+            <div class = 'entradas'>
+                <label for = 'preco-produto'>Digite aqui o preço do produto: <input id = 'inputPreco'
+                    type = 'text' placeholder = "980.79"></label>
+            </div>
+            <div class = 'entradas'>
+                <label for = 'preco-produto'>Digite aqui a quantidade do produto: <input id = 'inputQtd'
+                    type = 'number' placeholder = "10"></label>
+            </div>
+            <button id = 'cadastro' onclick = "botao()">Cadastrar</button>
+        </section>
     </div>
-    <div class = 'entradas'>
-        <label for = 'preco-produto'>Digite aqui o preço do produto: <input id = 'inputPreco' type = 'text'></label>
-    </div>
-    <div class = 'entradas'>
-        <label for = 'preco-produto'>Digite aqui a quantidade do produto: <input id = 'inputQtd' type = 'number'></label>
-    </div>
-    <button id = 'cadastro' onclick = "botao()">Cadastrar</button>
     <section id = "vender">
     <section class = 'total-vendas'>
-        <p style ="font-size: 20px;">Produtos disponíveis:</p><div class = 'vendas'></div>
+        <p style ="font-size: 27px; text-align: center;">Produtos disponíveis:</p><div class = 'vendas'></div>
     </section>
-    <p>Escreva o produto a ser vendido e a quantidade:</p>
-    <input type = 'text' id = 'vendido'>
-    <input type = "number" id = 'numero'>
-    <button id = 'cadastro' onclick="vender()">Vender</button>
-    </section>
-    <div class = 'vendas'></div>
-    <div class = 'entradas-totais'></div>
-    <button id = 'vendidos' onclick = "vendas()">Vendidos: </button>
-    <section class = 'total-vendidos'>
-        <p style ="font-size: 20px;">Produtos vendidos:</p><div class = 'vendidos'></div>
+    <section class = 'produtos-vendidos'>
+        <h2>Venda de produtos: </h2>
+        <div class = 'registrar'>
+            <p style ="font-size: 20px">Escreva o produto a ser vendido e a quantidade:</p>
+            <input type = 'text' id = 'vendido' placeholder="Monitor">
+            <input type = "number" id = 'numero' placeholder="7">
+        </div>
+        <button onclick="vender()" id = 'vendidos'>Vender</button>
+        </section>
+        <div class = 'saldo'>
+            <button onclick = "vendas()" id = 'tabela-vendidos'>Obter vendas </button>
+            <section class = 'total-vendidos'>
+                <p style ="font-size: 27px; text-align: center;">Produtos vendidos:</p><div class = 'vendidos'></div>
+            </section>
+        </div>
     </section>
 </body>
 </html>
