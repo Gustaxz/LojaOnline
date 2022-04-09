@@ -1,3 +1,1 @@
 # LojaOnline
-
-MEU PAU É GIGANTE PRA CARALHO
