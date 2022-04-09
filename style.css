@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.vendas, .vendidos {
+    margin: 1.5% 0;
+}
+
+
+
+.bloco {
+    margin: 0px 5px 0px 0px;
+    display: inline;
+}
+
+.bloquear {
+    margin: 2% 0 0 0;;
+    display: block;
+}
+
+.total-vendas {
+    width: 40%;
+    padding: 0.5% 1% 1.5% 1%;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin: 5px 0 20px 0;
+}
+
+.total-vendidos {
+    width: 40%;
+    padding: 0.5% 1% 1.5% 1%;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin: 5px 0 20px 15px;
+}
+
+.entradas {
+    margin: 1.5% 1%;
+    display: block;
+}
+
+#cadastro{
+    padding: 0.5%;
+    margin: 1.5% 1%;
+}
+
+#vendidos {
+    padding: 0.5%;
+    margin: 0.5% 0 1.5% 1%;
+}
+
+#vender {
+    margin: 1.5% 1%;
+}
+
+#numero, #inputQtd {
+    width: 5%;
+}
+
