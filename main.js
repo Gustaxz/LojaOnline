@@ -37,6 +37,10 @@ function botao() {
     let nome = document.getElementById('inputNome').value
     let preco = document.getElementById('inputPreco').value
     let qtd = document.getElementById('inputQtd').value
+    document.getElementById('inputNome').value = ""
+    document.getElementById('inputPreco').value = ""
+    document.getElementById('inputQtd').value = ""
+    document.getElementById('inputNome').focus()
     if (ehIgual(nome) === null) {
         let cadastrado = new criarProduto(nome, preco, qtd)
         cadastrarProduto(cadastrado)
@@ -94,6 +98,9 @@ function vender() {
              if (produtos[i].qtd === 0 || quantidade >= produtos[i].qtd) {
                 produtosVendidos.push(produtos[i])
                 produtos.splice(i, 1)
+                document.getElementById('numero').value = ""
+                document.getElementById('vendido').value = ""
+                document.getElementById('vendido').focus()
              } else {
                 produtos[i].qtd -= quantidade
              } 
@@ -102,7 +109,6 @@ function vender() {
     for (var j = 0; j < produtos.length; j++) {
         cadastrarProduto(produtos[j])
     }
-
 }
 
 function vendas() {

@@ -34,7 +34,7 @@ body {
 
 .produtos-cadastrados {
     display: block;
-    padding: 0 2% 2% 2%;
+    padding: 0 0% 2% 0%;
     text-align: center;
 }
 
@@ -71,12 +71,12 @@ h2 {
 }
 
 .entradas input {
-    margin: 0 1%;
     width: 35%;
-    padding: 2% 0.5%;
+    padding: 2% 2.5%;
     border: none;
     border-radius: 5px;
 }
+
 
 .entradas input:active {
     border-color: rgb(146, 254, 178);
@@ -170,7 +170,7 @@ h2 {
 }
 
 #inputQtd {
-    width: 7%;
+    width: 15%;
 }
 
 .saldo {
