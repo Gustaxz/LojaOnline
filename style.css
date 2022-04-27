@@ -10,20 +10,19 @@
 body {
     font-size: 17px;
     font-family: 'Anek Tamil', sans-serif;
-    color: rgba(22, 22, 22, 0.76);
-    background: rgb(132, 251, 230);
+    color: white;
+    background: rgb(49, 49, 49);
 }
 
 .header {
-    padding: 2.5%;
-    background: rgb(146, 254, 178);
-    border-bottom: 16px rgb(139, 252, 204) solid;
+    padding: 3.5%;
+    background: linear-gradient(135deg,rgb(251, 0, 129), rgb(177, 26, 141))  ;
 }
 
 
 .header h1 {
     font-family: 'Rubik Moonrocks', cursive;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     color: white;
 }
@@ -32,11 +31,12 @@ body {
     text-align: center;
 }
 
-.produtos-cadastrados {
-    display: block;
-    padding: 0 0% 2% 0%;
-    text-align: center;
+.inputs {
+    padding: 3%;
+    display: flex;
+    justify-content: center;
 }
+
 
 .vendas, .vendidos {
     margin: 1.5% 0;
@@ -45,11 +45,11 @@ body {
 h2 {
     display: inline-block;
     font-family: 'Inconsolata', monospace;
-    color: rgba(22, 22, 22, 0.76);
+    color: white;
     margin: 3% 0;
     text-align: center;
     padding: 0.8%;
-    border-bottom: 2px rgba(22, 22, 22, 0.76) solid;
+    border-bottom: 2px rgb(251, 0, 129) solid;
 }
 
 
@@ -71,6 +71,7 @@ h2 {
 }
 
 .entradas input {
+    outline: none;
     width: 35%;
     padding: 2% 2.5%;
     border: none;
@@ -94,13 +95,13 @@ h2 {
     font-family: 'Inconsolata', monospace;
     font-weight: bold;
     font-size: 20px;
-    color: rgba(22, 22, 22, 0.76);
-    border: 1px rgb(125, 207, 125) solid;
+    margin: 0 0 8% 0;
+    color: rgb(22, 22, 22);
+    border: 1px rgb(251, 0, 129) solid;
     border-radius: 5px;
-    background-color: rgb(152, 255, 152);
+    background-color: rgb(251, 0, 129);
     padding: 1.1% 0.6%;
     width: 20%;
-    margin: 5% 0 1% 0;
     transition: all 0.15s;
 }
 
@@ -133,7 +134,7 @@ h2 {
 .produtos-vendidos h2 {
     display: inline;
     padding: 0.8%;
-    border-bottom: 2px rgba(22, 22, 22, 0.76) solid;
+    border-bottom: 2px rgb(251, 0, 129) solid;
 }
 
 .registrar p {
@@ -147,9 +148,9 @@ h2 {
     font-weight: bold;
     font-size: 20px;
     color: rgba(22, 22, 22, 0.76);
-    border: 1px rgb(255, 174, 66) solid;
+    border: 1px rgb(251, 0, 129) solid;
     border-radius: 5px;
-    background-color: rgb(226, 152, 55);
+    background-color: rgb(251, 0, 129);
     padding: 1.1% 0.6%;
     width: 15%;
     margin: 3.5% 0 1% 0;
@@ -157,6 +158,7 @@ h2 {
 }
 
 .produtos-vendidos input {
+    outline: none;
     margin: 0 1%;
     width: 15%;
     padding: 1% 0.5%;
@@ -183,9 +185,9 @@ h2 {
     font-weight: bold;
     font-size: 17px;
     color: rgba(22, 22, 22, 0.76);
-    border: 1px rgb(181, 190, 98) solid;
+    border: 1px rgb(251, 0, 129) solid;
     border-radius: 10px;
-    background-color: rgb(204, 215, 109);
+    background-color: rgb(251, 0, 129);
     padding: 1.1% 0.6%;
     width: 12%;
     margin: 3.5% 0 1% 0;
