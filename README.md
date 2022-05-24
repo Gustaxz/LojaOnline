@@ -9,8 +9,12 @@
  <img src= "https://github.com/Gustaxz/LojaOnline/blob/main/.github/preview.png" width="50%">
 </div>
 
+<br>
+
 ## 💡 Motivação 
 Esse é um projeto feito para faculdade, onde o objetivo era criar uma loja que pudesse cadastrar e vender produtos.
+
+<br>
 
 ## 📘 Descrição e como usar 
 
@@ -22,6 +26,8 @@ Esse é um projeto feito para faculdade, onde o objetivo era criar uma loja que 
 ➡ Função obter vendas: Após vender uma parte ou completamente os produtos, é possível ter acesso aos vendidos, <br> clicando no botão "Obter vendas".
 Após isso, serão gerados na sessão "Produtos vendidos" os produtos escolhidos.
 
+<br>
+
 ## 🤖 Tecnologias usadas:
 
 Desde a proposta do projeto, ele deveria ser básico, logo, foram usadas os básicos das tecnologias disponíveis.
@@ -29,6 +35,8 @@ Desde a proposta do projeto, ele deveria ser básico, logo, foram usadas os bás
 🗸 Java Script <br>
 🗸 CSS <br>
 🗸 HTML <br>
+
+<br>
 
 ## ⏱️ O que pode ser melhorado?
 
