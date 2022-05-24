@@ -32,9 +32,10 @@ Desde a proposta do projeto, ele deveria ser básico, logo, foram usadas os bás
 
 ## ⏱️ O que pode ser melhorado?
 
-• Um banco de dados
-• Melhoria do layout para comportar mais dados
-• Geração de relatórios em PDF
-• Separação de rotas para vendas, compras e geração de vendas
-
+• Um banco de dados <br>
+• Melhoria do layout para comportar mais dados <br>
+• Geração de relatórios em PDF <br>
+• Separação de rotas para vendas, compras e geração de vendas <br>
+<br>
+<br>
 👍 Se tiver alguma sugestão para o projeto, pode enviar!
